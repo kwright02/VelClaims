@@ -1,0 +1,15 @@
+name: VelClaims
+description: Claiming system for Velraven
+author: Kwright02
+version: 1.0
+main: me.kwright02.vc.Main
+api-version: 1.17
+commands:
+  g:
+    description: Guild management
+    permission: valraven.claims.g
+    aliases: [guild, guilds]
+  vc:
+    description: Claim management
+    permission: valraven.claims.vc
+    aliases: [velclaims, vclaims, velc]
